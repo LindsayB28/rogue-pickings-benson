@@ -1,0 +1,158 @@
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script-ai.otf') format('opentype');
+}
+
+/***** BASE STYLES *****/
+
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** TOP SECTION *****/
+header{
+  height:110px;
+  margin: 0 auto;
+}
+
+header h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:30px;
+  font-weight: bold;
+  line-height: 23px;
+  text-transform: uppercase;
+  float: left;
+  padding: 45px 0;
+  margin: 0;
+}
+
+header h1 span{
+  color:#77a466;
+  font-weight: bold;
+}
+
+header nav{
+  float:right;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 22px 0;
+  margin: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    text-decoration:none;
+    color: #77a466;
+}
+/***** MIDDLE SECTION *****/
+
+.middle-section{
+  height:
+}
+
+.image img{
+  border-top: 3px solid #77a466;
+  border-bottom:3px solid #77a466;
+}
+
+.corner-of-internet{
+  float: left;
+}
+
+.corner-of-internet h3{
+  font-size:18px;
+  font-weight: bold;
+  color:#77a466;
+  text-transform: uppercase;
+}
+
+.corner-of-internet p{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/***** BOTTOM SECTION *****/
+.menu, .reviews, .contact{
+  width: 399px;
+  height: 207px;
+  float: left;
+  border-top: 1px solid #eee;
+  height: auto;
+}
+
+.menu, .reviews, .contact h4{
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.menu h4{
+  padding: 10px 0;
+}
+.menu li{
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: none;
+  line-height: 18px;
+  color: #77a466;
+  list-style: none;
+  padding: 10px 0;
+}
+
+.specials{
+  padding: 0;
+}
+
+.reviews h4, .contact h4{
+  padding: 10px 30px;
+}
+
+.reviews{
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.reviews p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: none;
+  padding: 0 25px;
+}
+
+.contact p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 30px;
+}
+
+/***** FOOTER *****/
+footer {
+  height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  clear: both;
+  border-top: 2.5px solid #eee;
+  margin: 0 auto;
+}
+
+footer h4 span{
+  font-family: 'Pacifico', cursive;
+  color: #80aa70;
+  text-transform: lowercase;
+}
